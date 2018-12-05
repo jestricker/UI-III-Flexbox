@@ -124,6 +124,8 @@ header img {
 }
 
 #headline {
+	display: flex;
+	align-items: center;
 	margin-top: 125px;
 	margin-left: 40px;
 	margin-right: 40px;
@@ -164,16 +166,16 @@ h2 {
 	height: 30px;
 	width: 150px;
 	border: 1px solid;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+	/* margin-left: auto;
+	margin-right: auto; */
+	/* text-align: center; */
 }
 
-#getStarted a {
+/* #getStarted a {
     color: black;
     vertical-align: middle;
     animation: none;
-}
+} */
 
 #visiongi-img {
     width: 440px;

@@ -111,6 +111,11 @@ nav a {
 	margin: 1%;
 }
 
+#services-link {
+	color: yellow;
+	animation: none;
+}
+
 section {
     display: flex;
     flex-direction: column;
@@ -155,8 +160,16 @@ article {
     width: 175px;
     height: 50px;
     margin-top: 5%;
+
 }
 
+.learn:hover{
+    cursor: pointer;
+}
+
+.learn a {
+    animation: none;
+}
 #bottomLine {
     margin-top: 0;
 }
@@ -180,11 +193,12 @@ article {
 
 ul {
     display: list-item;
-    margin-left: 5%;
+    /* margin-left: 5%; */
 }
 
 li {
     list-style-type: disc;
+    list-style-position: inside;
     margin-top: 2%;
 }
 
@@ -210,5 +224,9 @@ footer {
 
     #facts {
         flex-direction: column;
+        
+    }
+    .facts {
+        width: 96%;
     }
 }

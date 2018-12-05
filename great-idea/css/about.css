@@ -147,7 +147,8 @@ h2 {
 	width: 150px;
 	border: 1px solid;
 	margin: 0 auto;
-	text-align: center;
+  text-align: center;
+  background-color: white;
 }
 
 #getStarted a {
