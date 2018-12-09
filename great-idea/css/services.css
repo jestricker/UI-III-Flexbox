@@ -99,11 +99,21 @@ header {
 }
 
 nav {
+    width: 70%;
+}
+
+nav ul {
 	display: flex;
-	justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 	flex-wrap: wrap;
 	margin: 2%;
-	width: 60%
+	width: 100%
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-top: 0;
 }
 
 nav a {
@@ -122,7 +132,7 @@ section {
 }
 
 .services-header-img {
-    margin-top: 7%;
+    margin-top: 3%;
 }
 
 h1 {
@@ -193,7 +203,6 @@ article {
 
 ul {
     display: list-item;
-    /* margin-left: 5%; */
 }
 
 li {
